@@ -7,7 +7,7 @@ const mainRoutes = require('./routes/main');
 
 app.use(express.json());
 app.use(cors());
-app.use('/api', mainRoutes);
+app.use('/forecast/api', mainRoutes);
 
 
 app.listen(port, () => {
